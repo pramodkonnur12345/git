@@ -1,2 +1,1 @@
-Helo git:4
-Hello git second conflict"
+UPDATED tsecond file from confict
