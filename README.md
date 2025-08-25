@@ -16,9 +16,13 @@ git branch -D branchname #delete the branch
 git branch -m branchname #rename the current branch
 
 git reset #can be restored before pushing the commit
-git reset --soft branchname #keeps the staged files only
-git reset --mixed branchname #keeps unstaged files only
-git reset --hard branchname  #discard all changes
+git reset --soft HEAD~1 #undo the last commit and keeps the staged files only
+git reset --mixed HEAD~1 #undo the last commit and keeps unstaged files only
+git reset --hard HEAD~1  #undo the last commit and discard all changes
+
+git restore file #discard unstaged changes to a file
+git restore .  #discard all unstaged changes
+git restore --staged file #remove file from staging, keeps in working directory
 
 git checkout branchname #switch to branch
 git checkout -b branchname #create and switch to branch
