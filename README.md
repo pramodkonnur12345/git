@@ -34,5 +34,5 @@ git merge branch1 #merge branch1 commit to current branch
 git rebase brabch1 #merge branch1 commit to the current branch, moves the current branch and replays them on top of current branch(Def only, working same but pathline changes, it mantians linear)
 
 git fetch #fetch the branch from remote to local, but not automatically can use then and can only be view purpose, then you must use merge for working
-git push # for pushing from one repo to another
+git push # for pushing from one repo to remote repo
 
